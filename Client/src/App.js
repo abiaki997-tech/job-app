@@ -3,7 +3,7 @@ import './App.css';
 
 import Jobs from './Jobs'
 
-const JOB_URL='http://localhost:3001/jobs'
+const JOB_URL='/jobs'
 
 // const mockJobs=[
 //   {title: 'SWE 1', company: 'Google'},
