@@ -20,7 +20,7 @@ app.get('/jobs',async(req,res)=>{
  
   const jobs = await getAsync('github');
   // console.log(JSON.parse(jobs).length);com
-  res.header("Access-Control-Allow-Origin","https://abi-job-basic-app.herokuapp.com/")
+  res.header("Access-Control-Allow-Origin","https://job-abi.herokuapp.com/")
   return res.send(jobs)
 })
 
