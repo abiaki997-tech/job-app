@@ -15,6 +15,6 @@
     "indeed-jobs-api": "^0.1.1",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.1",
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   }
 }
